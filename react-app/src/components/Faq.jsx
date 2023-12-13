@@ -26,12 +26,10 @@ export default function Faq() {
                 Is StudyBuddy free to use?
               </h4>
               <p className="text-white my-2 p-2">
-                Our comprehensive app addresses campus infrastructure
-                seamlessly, encompassing carpentry, plumbing, electrical, and
-                logistical concerns. Streamline requests, track progress, and
-                optimize operations with our integrated system designed for
-                efficient issue resolution and facility management within the
-                college environment.
+              Discover endless possibilities with our free website app! 
+              Streamlined for user-friendly navigation, 
+              enjoy seamless access to our site's features.
+               Enhance your experience effortlessly—no cost, no hassle!
               </p>
             </div>
           </div>
@@ -53,10 +51,9 @@ export default function Faq() {
                 What are the features of this app?
               </h4>
               <p className="text-white my-2 p-2">
-                When submitting issues, provide detailed information including
-                problem type, room, building, and floor numbers. Enhance clarity
-                by attaching images related to the issue. This ensures prompt
-                and accurate resolution from our maintenance team.
+              Unlock a world of features in our app! Enjoy intuitive navigation, personalized settings,
+              and real-time updates. Seamlessly browse, connect, and explore with ease.
+              Elevate your experience with advanced functionalities—all packed in a user-friendly interface.
               </p>
             </div>
           </div>
@@ -78,12 +75,10 @@ export default function Faq() {
                 How to take notes on StudyBuddy and save it?
               </h4>
               <p className="text-white my-2 p-2">
-                Once a maintenance request is submitted, it cannot be modified
-                or canceled to maintain efficiency and streamline our response
-                process. Please review all details carefully before submission,
-                and if needed, contact our support team for further assistance.
-                We appreciate your understanding in optimizing our service
-                workflow.
+              Effortlessly capture your thoughts with our user-friendly note-taking app. 
+              Simply open, type, and organize notes with ease. 
+              Enjoy rich formatting options, quick search, and seamless synchronization across devices.
+               Streamline your workflow and never miss a brilliant idea!
               </p>
             </div>
           </div>
@@ -105,12 +100,10 @@ export default function Faq() {
                 Will I be able to study properly after using StudyBuddy?
               </h4>
               <p className="text-white my-2 p-2">
-                The resolution time for maintenance requests varies based on
-                factors such as problem complexity, staff availability, and
-                workload. While we strive for efficiency, please allow up to 10
-                days for completion. Urgent matters receive immediate attention.
-                We urge your patience as we prioritize thorough and effective
-                solutions.
+              Boost your productivity with our app!
+               Experience streamlined efficiency, seamless organization, and easy collaboration.
+                Enhance your workflow, stay focused, and achieve more—all in one powerful tool. 
+                Elevate your work experience with efficiency at your fingertips.
               </p>
             </div>
           </div>
@@ -132,11 +125,11 @@ export default function Faq() {
                 How will StudyBuddy improve my productivity?
               </h4>
               <p className="text-white my-2 p-2">
-                To track your maintenance request, please visit the website&apos;s
-                profile section. All updates and information regarding your
-                ticket status will be promptly communicated there. Stay informed
-                effortlessly for a seamless experience in monitoring your
-                request progress.
+              StudyBuddy transforms your productivity.
+               With intuitive task management, focused study sessions, and collaborative tools,
+               it optimizes your learning journey. 
+               Boost efficiency, stay organized, 
+               and achieve academic success effortlessly with StudyBuddy at your side.
               </p>
             </div>
           </div>
@@ -158,11 +151,11 @@ export default function Faq() {
                 How can I raise my concerns related to services of the app?
               </h4>
               <p className="text-white my-2 p-2">
-                Charges for maintenance depend on the issue. Intentional damage
-                incurs a penalty; however, no charges apply for naturally
-                occurring problems. Logistics requirements are provided free of
-                cost. We stress responsible facility use for a well-maintained
-                campus. Thank you for your cooperation.
+              Your satisfaction matters! 
+              Reach out effortlessly—our app prioritizes your concerns.
+               Access our support center or contact us directly. 
+               Your feedback shapes our services, 
+               ensuring a seamless experience tailored to your needs.
               </p>
             </div>
           </div>
