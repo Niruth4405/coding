@@ -9,9 +9,11 @@ function App() {
 
   return (
     <>
+    <div className="bg-gradient-to-b from-black to-black h-screen w-screen">
       <Navbar/>
       <Feedback/>
       <Footer/>
+      </div>
     </>
   )
 }

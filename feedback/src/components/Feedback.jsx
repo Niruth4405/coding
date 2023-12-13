@@ -1,19 +1,68 @@
-import React from "react";
+import React,{useState} from "react";
 
-function submit() {
+// function submit() {
+//   let inputElement = document.getElementById("base-input");
+
+//   if (inputElement.value.length === 0) {
+//     return (
+//       <div
+//         class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400"
+//         role="alert"
+//       >
+//         <span class="font-medium">Submit Failed!</span> Please Enter All The
+//         Fields Correctly.
+//       </div>
+//     );
+//   } else {
+//     return (
+//       <div
+//         class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+//         role="alert"
+//       >
+//         <span class="font-medium">Submit Success!</span> Thank You For
+//         Submitting Your Valuable Feedback.
+//       </div>
+//     );
+//   }
+// }
+function Feedback() {
+  const [showSuccessAlert, setShowSuccessAlert] = useState(false);
+  const [showErrorAlert, setShowErrorAlert] = useState(false);
+
+  function submit() {
     let inputElement = document.getElementById("base-input");
 
-    if (inputElement.ariaValueMax.length===0){
-        alert("Please Enter all fields correctly");
+    if (inputElement.value.length === 0) {
+      setShowErrorAlert(true);
+      setShowSuccessAlert(false);
+    } else {
+      setShowErrorAlert(false);
+      setShowSuccessAlert(true);
     }
-    else{
-        alert("Submitted! Thank you for submitting your feedback!")
-    }
+  }
 
-}
-function Feedback() {
   return (
     <>
+      {showErrorAlert && (
+        <div
+          className="p-4 mb-4 mt-[63px] text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400"
+          role="alert"  style={{ zIndex: 10000 }}
+        >
+          <span className="font-medium">Submit Failed!</span> Please Enter All
+          The Fields Correctly.
+        </div>
+      )}
+
+      {showSuccessAlert && (
+        <div
+          className="p-4 mb-4 mt-[63px] text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+          role="alert"  style={{ zIndex: 10000 }}
+        >
+          <span className="font-medium">Submit Success!</span> Thank You For
+          Submitting Your Valuable Feedback.
+        </div>
+      )}
+
       <div className="bg-gradient-to-b from-black to-black h-screen w-screen">
         <div className="w-[600px] bg-gray-800 m-auto pt-[70px] p-3">
           <h1 className="text-white text-center tracking-widest ">
